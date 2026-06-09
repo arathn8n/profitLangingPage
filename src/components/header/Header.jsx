@@ -21,7 +21,37 @@ const Header = () => {
                     <button className='btnMenu' onClick={handleMenu}>
                         <i class="fa-solid fa-bars"></i>
                     </button>
-                    <img src="/logo.webp" alt="logo" />
+
+                    <div className='contentNavbar'>
+                        <img src="/logo.webp" alt="logo" />
+                        <span className='span'>professional <br />
+                            fitness studio</span>
+
+                        <ul className='menuRrssDesktop'>
+                            <li>
+                                <a href="#">
+                                    <i className="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i className="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i className="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <nav className='navDesktop'>
+                        <a href="#">Home</a>
+                        <a href="#">Services</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Coach</a>
+                    </nav>
                 </div>
 
                 <nav className={menu ? 'openMenu' : 'closeMenu'}>
@@ -49,17 +79,17 @@ const Header = () => {
                     <ul className={rrss ? 'openRrss' : 'closeRrss'}>
                         <li>
                             <a href="#">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="fa-brands fa-youtube"></i>
+                                <i className="fa-brands fa-youtube"></i>
                             </a>
                         </li>
                     </ul>
