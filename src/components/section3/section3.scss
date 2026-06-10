@@ -1,0 +1,45 @@
+.bgImage2 {
+    background-image: url('/background2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+
+}
+
+.form {
+    div:first-child {
+        margin-bottom: 1rem;
+
+        input {
+            padding: .6875rem 1.1875rem;
+        }
+    }
+
+    div:nth-child(2) {
+        margin-bottom: 1rem;
+
+        input {
+            padding: .6875rem 1.1875rem;
+        }
+    }
+}
+
+.workout {
+    border: 1px solid #FF4141;
+    max-width: 50%;
+    padding: 1rem;
+
+    .workoutH2 {
+        font-size: 2.6875rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bgImage2 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
