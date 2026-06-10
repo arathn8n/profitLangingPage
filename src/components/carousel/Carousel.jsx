@@ -23,8 +23,11 @@ const Carousel = () => {
 
     return (
         <div className='card-carousel-wrapper'>
+            <header className='card-carousel-header'>
+                Coaches
+            </header>
             <button className='carousel-btn prev' onClick={scrollLeft}>&#10094;</button>
-            
+
             <div className='carousel-track' ref={trackRef}>
                 {dataCarousel.map((item) => (
                     <DetailsCarousel key={item.id} item={item} />
