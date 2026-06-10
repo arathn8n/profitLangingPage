@@ -47,10 +47,10 @@ const Header = () => {
                     </div>
 
                     <nav className='navDesktop'>
-                        <a href="#">Home</a>
-                        <a href="#">Services</a>
-                        <a href="#">Gallery</a>
-                        <a href="#">Coach</a>
+                        <a href="#section1">Home</a>
+                        <a href="#section2">Services</a>
+                        <a href="#section3">Gallery</a>
+                        <a href="#section4">Coach</a>
                     </nav>
                 </div>
 

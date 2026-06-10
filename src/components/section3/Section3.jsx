@@ -2,7 +2,7 @@ import React from 'react'
 import './section3.scss'
 const Section3 = () => {
     return (
-        <div className='bgImage2'>
+        <div className='bgImage2' id='section3'>
             <div className='workout'>
                 <p>only 5 days</p>
                 <h2 className='workoutH2'>start your <br />

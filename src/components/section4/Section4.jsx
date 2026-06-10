@@ -10,7 +10,7 @@ const Section4 = () => {
             </header>
             <p>Profit is the fitness club that makes fitness totally accessible to everybody. We promise to help people from all walks of life achieve their individual health and fitness goals — no matter their shape, age, and experience.</p>
 
-            <div className='clubGrid'>
+            <div className='clubGrid' id='section4'>
                 <img className='clubGrid-img' src="/gallery1.jpg" alt="galeria 1" />
                 <img className='clubGrid-img' src="/gallery2.jpg" alt="galeria 2" />
                 <img className='clubGrid-img' src="/gallery3.jpg" alt="galeria 3" />

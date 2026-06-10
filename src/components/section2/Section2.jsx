@@ -5,7 +5,7 @@ const Section2 = () => {
     return (
         <>
 
-            <div className='containerGrid'>
+            <div className='containerGrid' id='section2'>
                 <article className='article'>
                     <div className='containerIcon'>
                         <i class="fa-solid fa-medal"></i>
